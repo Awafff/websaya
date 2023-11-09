@@ -56,7 +56,21 @@
           <li><a class="nav-link scrollto" href="#gallery">Galeri</a></li>
           <li><a class="nav-link scrollto" href="#sejarah">Sejarah</a></li>
           <li><a class="nav-link scrollto" href="#team">Tim</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Penjualan</a></li>
+          <li class="dropdown">
+            <a href="#pricing"><span>Penjualan</span>
+              <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li>
+                <a href="#vps">VPS</a>
+              </li>
+              <li>
+                <a href="#rdp">RDP</a>
+              </li>
+              <li>
+                <a href="#domain">DOMAIN</a>
+              </li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -384,6 +398,7 @@
           <h2>Harga</h2>
           <p>Periksa Harga kami</p>
         </div>
+      <section id="vps" class="vps">
         <div class="container">
           <div class="section-title" data-aos="fade-left">
             <center><p>VPS</p></center>
@@ -438,7 +453,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="col-lg-3 col-md-6">
             <div class="box featured" data-aos="zoom-in" data-aos-delay="400">
               <h3>HIGHT</h3>
               <h4>100.000<span> / Bulan</span></h4>
@@ -453,7 +468,9 @@
               </div>
             </div>
           </div>
+        </section>
           
+        <section id="rdp" class="rdp">
         <div class="container">
           <div class="section-title" data-aos="fade-left">
             <center><p>RDP</p></center>
@@ -476,22 +493,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div class="box featured" data-aos="zoom-in" data-aos-delay="400">
-              <h3>HIGHT</h3>
-              <h4>175.000<span> / Bulan</span></h4>
-              <ul>
-                <li>CPU 4CORE</li>
-                <li>RAM 8GB</li>
-                <li>80GB DISK</li>
-                <li>UNLIMITED BANDWIDTH</li>
-                <li>500 Mbps</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="https://serverutama.com/cart.php?a=confproduct&i=1" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
+          
           <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box featured" data-aos="zoom-in" data-aos-delay="400">
               <h3>HIGHT</h3>
@@ -509,14 +511,73 @@
             </div>
           </div>
         </div>
+      </section>
+
+        <section id="domain" class="domain">
         <div class="container">
           <div class="section-title" data-aos="fade-left">
             <center><p>DOMAIN</p></center>
           </div>
         </div>
-          
+        <div class="row featured" data-aos="fade-left">
+          <div class="col-lg-3 col-md-6">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
+              <h3>COM</h3>
+              <h4>145.000 <span> / Tahun</span></h4>
+              <ul>
+                <li>Gratis Akses Cloudflare</li>
+                <li>Domain Terbaik</li>
+                <li>Sering Diminati</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://www.dewaweb.com/domain" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="box featured" data-aos="zoom-in" data-aos-delay="400">
+            <h3>CO.ID</h3>
+            <h4>300.000<span> / Tahun</span></h4>
+            <ul>
+                <li>Gratis Akses Cloudflare</li>
+                <li>Domain Terbaik</li>
+                <li>Sering Diminati</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="https://www.dewaweb.com/domain" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="box featured" data-aos="zoom-in" data-aos-delay="400">
+            <h3>ID</h3>
+            <h4>250.000<span> / Tahun</span></h4>
+            <ul>
+                <li>Gratis Akses Cloudflare</li>
+                <li>Domain Terbaik</li>
+                <li>Sering Diminati</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="https://www.dewaweb.com/domain" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="box featured" data-aos="zoom-in" data-aos-delay="400">
+            <h3>ONLINE</h3>
+            <h4>500.000<span> / Tahun</span></h4>
+            <ul>
+                <li>Gratis Akses Cloudflare</li>
+                <li>Domain Terbaik</li>
+                <li>Sering Diminati</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="https://www.dewaweb.com/domain" class="btn-buy">Buy Now</a>
+            </div>
+          </div>
         </div>
       </div>
+      </section>
     </section><!-- End Pricing Section -->
 
     <!-- ======= Contact Section ======= -->
@@ -597,7 +658,8 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               <h3>FADHOST OFFC</h3>
-              <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+              <p class="pb-3"><em>Ready Kebutuhan Hosting Vps, Rdp, Domain</em></p>
+              <p class="pb-3"><em>Kami Siap Melayani Anda 24 Jam Untuk Kebutuhan Anda</em></p>
               <p>
                 Muhammad Fadil <br>
                 40513, Jakarta<br><br>
